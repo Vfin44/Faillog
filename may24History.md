@@ -12,6 +12,7 @@
 
 Adding all of the History from today!
 
+   
    12  cd
    13  cd faillog
    14  nano may24E4.md
