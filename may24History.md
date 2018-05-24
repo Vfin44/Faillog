@@ -9,6 +9,9 @@
     9  history
    10  history < may24exer4.md
    11  history > may24E4.md
+  
+  Adding all of the work from today.
+
    12  cd
    13  cd faillog
    14  nano may24E4.md
@@ -25,4 +28,3 @@
    25  nano tweet-ids.txt
    26  history
    
-   Adding all of the work from today.
