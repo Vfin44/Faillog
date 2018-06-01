@@ -1,0 +1,25 @@
+    1  curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt
+    2  nano texas.txt
+    3  clear
+    4  history
+    5  grep '\bto\b' texas.txt
+    6  sed -r -i.bak 's/(.+\bto\b.+)/~\1/g' texas.txt
+    7  ls
+    8  nano texas.txt
+    9  history
+   10  grep '~' texas.txt > index.txt
+   11  nano index.txt
+   12  sed -r -i.bak 's/(,)( [0-9]{4})(.+)/\2/g' index.txt
+   13  nano index.txt
+   14  sed -r -i.bak 's/~//g' index.txt
+   15  nano index.txt
+   16  sed -r -i.bak 's/(\b to \b)/,/g index.txt
+clear
+'
+   17  sed -r -i.bak 's/(\b to \b)/,/g' index.txt
+   18  nano index.txt
+   19  grep -r ".+,.+,.+," index.txt
+   20  nano index.txt
+   21  cp index.txt cleaned-correspondence.csv
+   22  history
+   23  history > FLJ1.mx
